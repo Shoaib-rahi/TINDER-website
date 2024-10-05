@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/driver.js@1.0.1/dist/driver.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body{
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+        background-color: #333;
+    }
+    .detialscontainer{
+        background: linear-gradient(to bottom , transparent, rgba(0, 0, 0, 0.9));
+    }
+</style>
+<body>
+    <div class="w-full h-screen bg-black">
+        <div class="imgcontainer relative w-full h-screen overflow-hidden">
+            <div class="main-card  z-[3] w-[130%] top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 h-[130%]  absolute ">
+                <img class="w-full h-full object-cover bg-center" src="" alt="">
+            </div>
+            <div class="  incoming-card z-[2]  w-[130%] h-[130%] top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2   absolute ">
+
+                <img class="w-full h-full object-cover bg-center" src="" alt="">
+
+            </div>
+        </div>
+        <div class="absolute w-full top-0 left-0 z-[4] h-screen   flex justify-between flex-col">
+
+            <div class="navbar flex px-5 py-6 justify-between items-center text-white overflow-hidden">
+                <div class="prflimg w-[3.5rem] h-[3.5rem] bg-red-600 rounded-full">
+                    <img class="w-full h-full rounded-full object-cover"
+                        src=""
+                        alt="" id="some-element">
+                </div>
+                <h3 class="capitalize text-2xl font-medium tracking-tight">they like you</h3>
+                <div
+                    class="chaticon relative w-[3.5rem] h-[3.5rem] bg-white/40 flex justify-center items-center rounded-full">
+                    <i class="opacity=80 ri-chat-1-fill text-gray-600 text-xl cursor-pointer"></i>
+                    <div
+                        class="bedge w-5 h-5 rounded-full top-2 -translate-y-[5px] translate-x-[2px] right-0 flex justify-center items-center bg-red-700 absolute">
+                        <h5 class="font-medium text-xs  ">5</h5>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="detialscontainer w-full">
+                <div class="detials px-3 py-2 w-full">
+                    <div class="element location flex gap-5">
+                        <i class="w-[1.6rem] h-[1.6rem] bg-white flex items-center justify-center rounded-full font-semibold ri-corner-left-up-line"></i>
+                        <h3 class="text-white text-xl">USA, California</h3>
+                    </div>
+                    <div class="element  name flex text-white gap-2 mt-2 text-[3.5rem] font-semibold">
+                        <h1>Victorya</h1>
+                        <h1 class="opacity-40">20</h1>
+                    </div>
+                    <div class=" element tags flex w-full text-white m-5 gap-4 interest">
+                        <!-- <i
+                            class="ri-folder-music-fill w-20 h-10 bg-white/30 flex gap-2 font-semibold justify-center items-center rounded-full text-[#14083B] text-[16px]">music</i>
+                        <i
+                            class="ri-folder-music-fill  w-20 h-10 bg-white/30 flex gap-2 font-semibold justify-center items-center rounded-full text-[#14083B] text-[16px]">music</i>
+                        <i
+                            class="ri-folder-music-fill  w-20 h-10 bg-white/30 flex gap-2 font-semibold justify-center items-center rounded-full text-[#14083B] text-[16px]">music</i> -->
+                    </div>
+                    <div class="element bio">
+                        <h2 class="text-white text-2xl font-semibold">Bio</h2>
+                    </div>
+                    <div class="element para">
+                        <p class="text-white/80 mt-5 font-semibold text-xl tracking-tight"> Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Dignissimos amet id quaerat fuga cum.Dignissimos amet id
+                            quaerat fuga cum.</p>
+                    </div>
+                    <div class="element flex item-start mt-10 gap-1">
+                        <button class=" deny w-1/2 bg-white py-3 rounded-lg">
+                            <i class="ri-close-line text-2xl font-semibold"></i>
+                        </button>
+                        <button class="accept w-1/2 bg-[#FC5149] py-3 rounded-lg">
+                            <i class="ri-service-fill text-2xl font-semibold text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="scrip.js"></script>
+
+
+</body>
+
+</html>
